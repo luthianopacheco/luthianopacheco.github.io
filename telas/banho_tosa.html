@@ -25,15 +25,15 @@
             const radioButtons = document.querySelectorAll('input[name="Tele"]');
             const cep = document.getElementById('cep');
 
-            radioButtons.forEach(radio => {
-                if (radio.checked) {
-                    if (radio.id === 'semTele') {
+            for (const e of radioButtons) {
+                if (e.checked) {
+                    if (e.id === 'semTele') {
                         cep.style.display = 'none';
                     } else {
                         cep.style.display = 'block';
                     }
                 }
-            });
+            }
 
         };
     </script>
@@ -50,10 +50,10 @@
             <a href="login.html" class="header-button"><i class="fa-solid fa-user"></i>Login </a>
         </nav>
         <nav class="navigator2">
-            <a href=" #">Produtos</a>
+            <a href="produtos.html">Produtos</a>
             <a href="servicos.html">Serviços</a>
             <a href="planos_de_saude.html">Planos de Saúde</a>
-            <a href="#">Contato</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
     <br> <br> <br>
@@ -68,7 +68,7 @@
         </div>
         <div class="card">
             <!-- LOGO -->
-            <img src="../assets/index/logo-escrita.png" alt="logo" class="img-logo">
+            <img src="../assets/geral/logo-escrita.png" alt="logo" class="img-logo">
 
             <!-- TIPO DE BANHO -->
             <form action="https://formsubmit.co/luthianopacheco@gmail.com" method="POST">
@@ -232,7 +232,7 @@
                         <a href="esqueci_minha_senha.html">
                             <li>Esqueceu a Senha?</li>
                         </a>
-                        <a href=" #">
+                        <a href="#">
                             <li>Produtos</li>
                         </a>
                         <a href="servicos.html">
@@ -253,10 +253,10 @@
                         <a href="banho_tosa.html">
                             <li>Banho e Tosa</li>
                         </a>
-                        <a href=" #">
+                        <a href="#">
                             <li>Hospedagem</li>
                         </a>
-                        <a href=" #">
+                        <a href="#">
                             <li>Pet Sitting</li>
                         </a>
                     </ul>
