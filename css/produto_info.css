@@ -1,0 +1,72 @@
+.corpo {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.imagem {
+    margin: 20px;
+    width: 700px;
+    border: 1px;
+    border-style: solid;
+    border-color: #1212121a;
+}
+
+@media (width <=1190px) {
+    .corpo {
+        display: inline;
+        margin: auto;
+    }
+    .imagem{
+        width: 600px;
+    }
+}
+
+
+.col2 {
+    margin: 20px;
+    max-width: 600px;
+}
+
+.price span {
+    text-decoration: line-through;
+
+}
+
+.price strong {
+    font-size: 24pt;
+}
+
+.botoes {
+    display: inline;
+    position: relative;
+}
+
+.btn {
+    width: 270px;
+    background-color: #2ce28a;
+    color: #121212;
+    font-weight: 600;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    border-color: transparent;
+}
+
+.btn2 {
+    margin: 5px;
+    width: 50px;
+}
+
+.inpt {
+    width: 120px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.frete-label {
+    margin-bottom: -5px;
+}

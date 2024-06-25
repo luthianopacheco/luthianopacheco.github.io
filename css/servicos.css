@@ -1,0 +1,41 @@
+.div-title {
+    max-width: 80%;
+    margin: auto;
+}
+
+@media (width >=1600px) {
+    .div-title {
+        max-width: 1250px;
+    }
+}
+
+.row {
+    display: flex;
+    max-width: 80%;
+    padding-left: 30px;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    min-width: 287px;
+    width: 287px;
+    min-height: 450px;
+}
+
+.btn {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: #2ce28a;
+    color: #121212;
+    font-weight: 600;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    border-color: transparent;
+}
